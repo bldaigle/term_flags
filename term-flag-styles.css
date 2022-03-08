@@ -1,0 +1,36 @@
+/**
+ * Styles for subject term flag and associated dropdown message
+ * 
+ * Author: Ben Daigle
+ * Created Date: June 14, 2021
+*/
+
+.term-flag {
+    display: inline;
+}
+
+.term-flag a i.fas {
+	color: #8C1730 !important;
+	cursor: pointer;
+}
+
+.term-flag a i.fas:hover {
+	color: #641123 !important;
+}
+
+.term-flag-title {
+	color: #8C1730;
+}
+
+.flag-card {
+	position: relative;
+	display: block;
+    width: 80%;
+	min-width: 0;
+	background-color: #fafafa;
+	background-clip: border-box;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
